@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="showResultTextArea" editable="false" layoutX="6.0" layoutY="104.0" prefHeight="258.0" prefWidth="586.0" />
+      <Label alignment="CENTER" layoutX="70.0" layoutY="14.0" prefHeight="29.0" prefWidth="459.0" text="Svi rezultati" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="63.0" prefHeight="18.0" prefWidth="96.0" text="KORISNIK" />
+      <Label layoutX="251.0" layoutY="63.0" prefHeight="18.0" prefWidth="96.0" text="VRIJEME" />
+      <Label layoutX="456.0" layoutY="64.0" prefHeight="18.0" prefWidth="96.0" text="REZULTAT" />
+   </children>
+</AnchorPane>

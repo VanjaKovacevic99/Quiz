@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="614.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="answersListView" layoutX="67.0" layoutY="149.0" prefHeight="247.0" prefWidth="258.0" />
+      <TextArea fx:id="questionTextArea" editable="false" layoutX="67.0" layoutY="25.0" prefHeight="90.0" prefWidth="482.0" />
+      <TextField fx:id="answereTextField" layoutX="340.0" layoutY="211.0" prefHeight="42.0" prefWidth="216.0" promptText="Rjesenje" />
+      <Label fx:id="resultLabela" layoutX="340.0" layoutY="169.0" prefHeight="42.0" prefWidth="216.0" text="Unesite rjesenje:" />
+      <Button fx:id="nextQuestionButton" layoutX="217.0" layoutY="438.0" mnemonicParsing="false" onMouseClicked="#showNextQuestion" prefHeight="42.0" prefWidth="216.0" text="Sledece pitanje" />
+      <TextField fx:id="resultTextField" editable="false" layoutX="340.0" layoutY="335.0" prefHeight="42.0" prefWidth="216.0" />
+      <Label fx:id="currentResultLabel" layoutX="340.0" layoutY="273.0" prefHeight="42.0" prefWidth="216.0" text="Broj tacnih odgovora" />
+      <Button fx:id="resultButton" layoutX="217.0" layoutY="496.0" mnemonicParsing="false" onMouseClicked="#showAllResult" prefHeight="42.0" prefWidth="216.0" text="Svi rezultati" />
+      <Button fx:id="exitButton" layoutX="214.0" layoutY="550.0" mnemonicParsing="false" onMouseClicked="#showLoginForm" prefHeight="42.0" prefWidth="216.0" text="Izlaz" />
+   </children>
+</AnchorPane>
